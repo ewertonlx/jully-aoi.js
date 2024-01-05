@@ -17,10 +17,18 @@ const aoijs = require("aoi.js");
 
 
 const bot = new aoijs.AoiClient({
-token: process.env['TOKEN'],
+token: "seu token aqui",
 prefix: "$getGuildVar[prefix;$guildID]",
 intents: ["MessageContent", "GuildMessages", "Guilds"],
-events: ["onMessage", "onInteractionCreate"]
+events: ["onMessage", "onInteractionCreate"],
+database: {
+    type: "aoi.db",
+    db: require("@akarui/aoi.db"),
+    dbType: "KeyValue",
+    tables: ["main"],
+    securityKey: "a-32-characters-long-string-here",
+  }
+
 })
 
 bot.status({
