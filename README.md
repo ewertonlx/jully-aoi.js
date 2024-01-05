@@ -1,3 +1,4 @@
+🚨 A versão usada no projeto foi a `6.4.0` portanto terá constantes erros pois o aoi.js já está em uma versão mais atual e diferente! 
 Olá usuários, este projeto foi desenvolvido em JavaScript utilizando a biblioteca aoi.js que permite criar bots para o Discord. A Jully foi e ainda é um dos meus projetos e aqui está alguns comandos que ela tinha.
 Atualmente estou refazendo da Jully com o discord.js.
 Espero que gostem dos comandos, e fiquem a vontade para usarem em seus bots.
